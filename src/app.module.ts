@@ -16,7 +16,7 @@ import { UploadModule } from './modules/upload/upload.module';
     NestConfigModule.forRoot({ isGlobal: true, envFilePath: '.env' }),
     ConfigModule,
     MongooseModule.forRoot(
-      process.env.MONGODB_URI || 'mongodb://localhost:27017/narah-store',
+      process.env.MONGODB_URI || 'mongodb+srv://narahsilver:narahsilver@123@cluster0.nfvo4az.mongodb.net/narah-store?retryWrites=true&w=majority&appName=Cluster0',
     ),
     AuthModule,
     ProductsModule,
