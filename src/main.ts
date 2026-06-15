@@ -8,11 +8,7 @@ async function bootstrap() {
 
   // Enable CORS
   app.enableCors({
-    origin: [
-      'https://narahsilver.com',
-      'https://www.narahsilver.com',
-      'http://localhost:3000',
-    ],
+    origin: true,
     credentials: true,
   });
 
