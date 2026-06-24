@@ -13,6 +13,10 @@ export class CreateCategoryDto {
   icon: string;
 
   @IsOptional()
+  @IsString()
+  image: string;
+
+  @IsOptional()
   @IsNumber()
   displayOrder: number;
 }
