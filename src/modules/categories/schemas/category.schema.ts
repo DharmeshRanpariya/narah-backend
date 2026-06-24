@@ -14,6 +14,9 @@ export class Category {
   @Prop()
   icon: string;
 
+  @Prop()
+  image: string;
+
   @Prop({ type: Number, default: 0 })
   displayOrder: number;
 }
